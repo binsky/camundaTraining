@@ -1,0 +1,36 @@
+<form class="form-horizontal">
+  <div class="form-group">
+    <label class="control-label col-md-4">Order Amount</label>
+    <div class="col-md-8">
+      <input type="text"
+             cam-variable-name="fullAmount"
+             cam-variable-type="String"
+             class="form-control" />
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label class="control-label col-md-4">Error Message</label>
+    <div class="col-md-8">
+      <input type="text"
+             cam-variable-name="errorMessage"
+             cam-variable-type="String"
+			 readonly
+             class="form-control" />
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label class="control-label col-md-4">Insufficient Funds</label>
+    <div class="col-md-8">
+      <input type="text"
+             cam-variable-name="insufficientFunds"
+             cam-variable-type="Boolean"
+             class="form-control" />
+    </div>
+  </div>
+
+  <script cam-script type="text/form-script">
+    // custom JavaScript goes here
+  </script>
+</form>
